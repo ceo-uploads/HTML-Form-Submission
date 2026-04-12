@@ -24,7 +24,7 @@ This repository is organized into three distinct development streams. Each branc
 
 | Branch | Developer | Purpose | Live Preview |
 | :--- | :--- | :--- | :--- |
-| `Dev/Rayhan` | **Rayhan** | Feature Lead / Core UI | [🚀 View Live](https://governors-group.github.io/HTML-Form-Submission/rayhan) |
+| `Dev/Rayhan` | **Rayhan** | Feature Lead / Core UI | [🚀 View Live](https://ceo-uploads.github.io/HTML-Form-Submission/devRayhan/signup.html) |
 | `Dev/Maitri` | **Maitri** | Logic & Validation | [🚀 View Live](https://governors-group.github.io/HTML-Form-Submission/maitri) |
 | `Dev/Sonya` | **Sonya** | UX & Accessibility | [🚀 View Live](https://governors-group.github.io/HTML-Form-Submission/sonya) |
 
@@ -61,18 +61,6 @@ Our authentication suite features:
 * **3D Entrance:** Cinematic card transitions using custom cubic-bezier curves.
 * **Tactile Feedback:** Micro-scale interactions on input focus and button states.
 * **Ultra-Responsive:** Tailored experience for desktop, tablet, and mobile devices.
-
----
-
-## 🌲 Repository Architecture
-
-This repository is organized into three distinct development streams. Each branch contains a unique iteration of the project overseen by our lead developers.
-
-| Branch | Developer | Purpose | Live Preview |
-| :--- | :--- | :--- | :--- |
-| `Dev/Rayhan` | **Rayhan** | Feature Lead / Core UI | [🚀 View Live](https://governors-group.github.io/HTML-Form-Submission/rayhan) |
-| `Dev/Maitri` | **Maitri** | Logic & Validation | [🚀 View Live](https://governors-group.github.io/HTML-Form-Submission/maitri) |
-| `Dev/Sonya` | **Sonya** | UX & Accessibility | [🚀 View Live](https://governors-group.github.io/HTML-Form-Submission/sonya) |
 
 ---
 
