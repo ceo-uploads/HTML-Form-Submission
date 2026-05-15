@@ -71,3 +71,50 @@ Appends a new task object to the system registry.
   "priority": "medium",
   "tags": ["work", "planning"]
 }
+```
+
+### 👁️ JSON Preview
+<img width="1578" height="836" alt="image" src="https://github.com/user-attachments/assets/58e10cbb-efe7-4ba8-8b7e-fea25e308abd" />
+
+### 📊 Tabular Preview
+<img width="1587" height="873" alt="image" src="https://github.com/user-attachments/assets/0a1abaf9-3a63-47b8-90b2-96d40c9d2c3f" />
+
+
+---
+
+## 🟠 Update Todo
+Modifies parameters of an existing records targetted by URL parameters.
+
+* **Method:** `PUT`
+* **URL:** `http://localhost:3000/todos/3`
+* **Headers:** `Content-Type: application/json`
+
+### 📥 Request Body (raw JSON)
+```json
+{
+  "taskTitle": "Fix Critical Production Bug",
+  "priority": "high",
+  "tags": ["work", "hotfix", "backend"]
+}
+```
+
+### 👁️ JSON Preview
+<img width="1594" height="883" alt="image" src="https://github.com/user-attachments/assets/dfaf5a61-7a7c-4739-be6d-347fa4034af5" />
+
+---
+
+## 🔴 Delete Todo
+Permanently purges a task from the dataset.
+
+* **Method:** `DELETE`
+* **URL:** `http://localhost:3000/todos/2`
+* **Headers:** `Content-Type: application/json`
+
+### 👁️ Preview
+<img width="1580" height="877" alt="image" src="https://github.com/user-attachments/assets/8de0c3c5-41ce-479b-81d0-d78187f73511" />
+
+#### 💡 Response Status: 204 No Content (Task ID - 2 has been successfully unlinked)
+
+### 🔄 Database State Post-Deletion
+<img width="1578" height="847" alt="image" src="https://github.com/user-attachments/assets/08f26334-3630-4fd0-8fba-af13b378fb71" />
+The snippet below shows the data array with ID: 2 fully extracted.
